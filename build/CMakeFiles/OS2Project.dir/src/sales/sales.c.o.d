@@ -1,6 +1,6 @@
-CMakeFiles/OS2Project.dir/src/main.c.o: \
- /home/omar/Desktop/OS2Project/src/main.c /usr/include/stdc-predef.h \
- /usr/include/stdio.h \
+CMakeFiles/OS2Project.dir/src/sales/sales.c.o: \
+ /home/omar/Desktop/OS2Project/src/sales/sales.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -50,23 +50,7 @@ CMakeFiles/OS2Project.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
- /home/omar/Desktop/OS2Project/src/book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/customer.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../sales/sales.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../sales/../book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../sales/../customer/customer.h \
- /home/omar/Desktop/OS2Project/src/customer/customer.h \
- /home/omar/Desktop/OS2Project/src/sales/sales.h
+ /usr/include/strings.h /home/omar/Desktop/OS2Project/src/sales/sales.h \
+ /home/omar/Desktop/OS2Project/src/sales/../book/book.h \
+ /home/omar/Desktop/OS2Project/src/sales/../book/../customer/customer.h \
+ /home/omar/Desktop/OS2Project/src/sales/../customer/customer.h

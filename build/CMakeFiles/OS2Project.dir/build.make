@@ -83,49 +83,65 @@ CMakeFiles/OS2Project.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS2Project.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/Desktop/OS2Project/src/main.c -o CMakeFiles/OS2Project.dir/src/main.c.s
 
-CMakeFiles/OS2Project.dir/src/book.c.o: CMakeFiles/OS2Project.dir/flags.make
-CMakeFiles/OS2Project.dir/src/book.c.o: ../src/book.c
-CMakeFiles/OS2Project.dir/src/book.c.o: CMakeFiles/OS2Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omar/Desktop/OS2Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OS2Project.dir/src/book.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OS2Project.dir/src/book.c.o -MF CMakeFiles/OS2Project.dir/src/book.c.o.d -o CMakeFiles/OS2Project.dir/src/book.c.o -c /home/omar/Desktop/OS2Project/src/book.c
+CMakeFiles/OS2Project.dir/src/book/book.c.o: CMakeFiles/OS2Project.dir/flags.make
+CMakeFiles/OS2Project.dir/src/book/book.c.o: ../src/book/book.c
+CMakeFiles/OS2Project.dir/src/book/book.c.o: CMakeFiles/OS2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omar/Desktop/OS2Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OS2Project.dir/src/book/book.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OS2Project.dir/src/book/book.c.o -MF CMakeFiles/OS2Project.dir/src/book/book.c.o.d -o CMakeFiles/OS2Project.dir/src/book/book.c.o -c /home/omar/Desktop/OS2Project/src/book/book.c
 
-CMakeFiles/OS2Project.dir/src/book.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS2Project.dir/src/book.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omar/Desktop/OS2Project/src/book.c > CMakeFiles/OS2Project.dir/src/book.c.i
+CMakeFiles/OS2Project.dir/src/book/book.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS2Project.dir/src/book/book.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omar/Desktop/OS2Project/src/book/book.c > CMakeFiles/OS2Project.dir/src/book/book.c.i
 
-CMakeFiles/OS2Project.dir/src/book.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS2Project.dir/src/book.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/Desktop/OS2Project/src/book.c -o CMakeFiles/OS2Project.dir/src/book.c.s
+CMakeFiles/OS2Project.dir/src/book/book.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS2Project.dir/src/book/book.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/Desktop/OS2Project/src/book/book.c -o CMakeFiles/OS2Project.dir/src/book/book.c.s
 
-CMakeFiles/OS2Project.dir/src/customer.c.o: CMakeFiles/OS2Project.dir/flags.make
-CMakeFiles/OS2Project.dir/src/customer.c.o: ../src/customer.c
-CMakeFiles/OS2Project.dir/src/customer.c.o: CMakeFiles/OS2Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omar/Desktop/OS2Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OS2Project.dir/src/customer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OS2Project.dir/src/customer.c.o -MF CMakeFiles/OS2Project.dir/src/customer.c.o.d -o CMakeFiles/OS2Project.dir/src/customer.c.o -c /home/omar/Desktop/OS2Project/src/customer.c
+CMakeFiles/OS2Project.dir/src/customer/customer.c.o: CMakeFiles/OS2Project.dir/flags.make
+CMakeFiles/OS2Project.dir/src/customer/customer.c.o: ../src/customer/customer.c
+CMakeFiles/OS2Project.dir/src/customer/customer.c.o: CMakeFiles/OS2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omar/Desktop/OS2Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OS2Project.dir/src/customer/customer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OS2Project.dir/src/customer/customer.c.o -MF CMakeFiles/OS2Project.dir/src/customer/customer.c.o.d -o CMakeFiles/OS2Project.dir/src/customer/customer.c.o -c /home/omar/Desktop/OS2Project/src/customer/customer.c
 
-CMakeFiles/OS2Project.dir/src/customer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS2Project.dir/src/customer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omar/Desktop/OS2Project/src/customer.c > CMakeFiles/OS2Project.dir/src/customer.c.i
+CMakeFiles/OS2Project.dir/src/customer/customer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS2Project.dir/src/customer/customer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omar/Desktop/OS2Project/src/customer/customer.c > CMakeFiles/OS2Project.dir/src/customer/customer.c.i
 
-CMakeFiles/OS2Project.dir/src/customer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS2Project.dir/src/customer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/Desktop/OS2Project/src/customer.c -o CMakeFiles/OS2Project.dir/src/customer.c.s
+CMakeFiles/OS2Project.dir/src/customer/customer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS2Project.dir/src/customer/customer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/Desktop/OS2Project/src/customer/customer.c -o CMakeFiles/OS2Project.dir/src/customer/customer.c.s
+
+CMakeFiles/OS2Project.dir/src/sales/sales.c.o: CMakeFiles/OS2Project.dir/flags.make
+CMakeFiles/OS2Project.dir/src/sales/sales.c.o: ../src/sales/sales.c
+CMakeFiles/OS2Project.dir/src/sales/sales.c.o: CMakeFiles/OS2Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/omar/Desktop/OS2Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OS2Project.dir/src/sales/sales.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OS2Project.dir/src/sales/sales.c.o -MF CMakeFiles/OS2Project.dir/src/sales/sales.c.o.d -o CMakeFiles/OS2Project.dir/src/sales/sales.c.o -c /home/omar/Desktop/OS2Project/src/sales/sales.c
+
+CMakeFiles/OS2Project.dir/src/sales/sales.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OS2Project.dir/src/sales/sales.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/omar/Desktop/OS2Project/src/sales/sales.c > CMakeFiles/OS2Project.dir/src/sales/sales.c.i
+
+CMakeFiles/OS2Project.dir/src/sales/sales.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OS2Project.dir/src/sales/sales.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/omar/Desktop/OS2Project/src/sales/sales.c -o CMakeFiles/OS2Project.dir/src/sales/sales.c.s
 
 # Object files for target OS2Project
 OS2Project_OBJECTS = \
 "CMakeFiles/OS2Project.dir/src/main.c.o" \
-"CMakeFiles/OS2Project.dir/src/book.c.o" \
-"CMakeFiles/OS2Project.dir/src/customer.c.o"
+"CMakeFiles/OS2Project.dir/src/book/book.c.o" \
+"CMakeFiles/OS2Project.dir/src/customer/customer.c.o" \
+"CMakeFiles/OS2Project.dir/src/sales/sales.c.o"
 
 # External object files for target OS2Project
 OS2Project_EXTERNAL_OBJECTS =
 
 OS2Project: CMakeFiles/OS2Project.dir/src/main.c.o
-OS2Project: CMakeFiles/OS2Project.dir/src/book.c.o
-OS2Project: CMakeFiles/OS2Project.dir/src/customer.c.o
+OS2Project: CMakeFiles/OS2Project.dir/src/book/book.c.o
+OS2Project: CMakeFiles/OS2Project.dir/src/customer/customer.c.o
+OS2Project: CMakeFiles/OS2Project.dir/src/sales/sales.c.o
 OS2Project: CMakeFiles/OS2Project.dir/build.make
 OS2Project: CMakeFiles/OS2Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omar/Desktop/OS2Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable OS2Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/omar/Desktop/OS2Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable OS2Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OS2Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

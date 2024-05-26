@@ -129,53 +129,53 @@ OS2Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/build
 .PHONY : OS2Project/fast
 
-src/book.o: src/book.c.o
-.PHONY : src/book.o
+src/book/book.o: src/book/book.c.o
+.PHONY : src/book/book.o
 
 # target to build an object file
-src/book.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book.c.o
-.PHONY : src/book.c.o
+src/book/book.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book/book.c.o
+.PHONY : src/book/book.c.o
 
-src/book.i: src/book.c.i
-.PHONY : src/book.i
+src/book/book.i: src/book/book.c.i
+.PHONY : src/book/book.i
 
 # target to preprocess a source file
-src/book.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book.c.i
-.PHONY : src/book.c.i
+src/book/book.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book/book.c.i
+.PHONY : src/book/book.c.i
 
-src/book.s: src/book.c.s
-.PHONY : src/book.s
+src/book/book.s: src/book/book.c.s
+.PHONY : src/book/book.s
 
 # target to generate assembly for a file
-src/book.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book.c.s
-.PHONY : src/book.c.s
+src/book/book.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book/book.c.s
+.PHONY : src/book/book.c.s
 
-src/customer.o: src/customer.c.o
-.PHONY : src/customer.o
+src/customer/customer.o: src/customer/customer.c.o
+.PHONY : src/customer/customer.o
 
 # target to build an object file
-src/customer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer.c.o
-.PHONY : src/customer.c.o
+src/customer/customer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer/customer.c.o
+.PHONY : src/customer/customer.c.o
 
-src/customer.i: src/customer.c.i
-.PHONY : src/customer.i
+src/customer/customer.i: src/customer/customer.c.i
+.PHONY : src/customer/customer.i
 
 # target to preprocess a source file
-src/customer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer.c.i
-.PHONY : src/customer.c.i
+src/customer/customer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer/customer.c.i
+.PHONY : src/customer/customer.c.i
 
-src/customer.s: src/customer.c.s
-.PHONY : src/customer.s
+src/customer/customer.s: src/customer/customer.c.s
+.PHONY : src/customer/customer.s
 
 # target to generate assembly for a file
-src/customer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer.c.s
-.PHONY : src/customer.c.s
+src/customer/customer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer/customer.c.s
+.PHONY : src/customer/customer.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -201,6 +201,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/sales/sales.o: src/sales/sales.c.o
+.PHONY : src/sales/sales.o
+
+# target to build an object file
+src/sales/sales.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales.c.o
+.PHONY : src/sales/sales.c.o
+
+src/sales/sales.i: src/sales/sales.c.i
+.PHONY : src/sales/sales.i
+
+# target to preprocess a source file
+src/sales/sales.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales.c.i
+.PHONY : src/sales/sales.c.i
+
+src/sales/sales.s: src/sales/sales.c.s
+.PHONY : src/sales/sales.s
+
+# target to generate assembly for a file
+src/sales/sales.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales.c.s
+.PHONY : src/sales/sales.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OS2Project"
-	@echo "... src/book.o"
-	@echo "... src/book.i"
-	@echo "... src/book.s"
-	@echo "... src/customer.o"
-	@echo "... src/customer.i"
-	@echo "... src/customer.s"
+	@echo "... src/book/book.o"
+	@echo "... src/book/book.i"
+	@echo "... src/book/book.s"
+	@echo "... src/customer/customer.o"
+	@echo "... src/customer/customer.i"
+	@echo "... src/customer/customer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/sales/sales.o"
+	@echo "... src/sales/sales.i"
+	@echo "... src/sales/sales.s"
 .PHONY : help
 
 

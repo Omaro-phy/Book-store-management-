@@ -1,6 +1,6 @@
-CMakeFiles/OS2Project.dir/src/main.c.o: \
- /home/omar/Desktop/OS2Project/src/main.c /usr/include/stdc-predef.h \
- /usr/include/stdio.h \
+CMakeFiles/OS2Project.dir/src/customer/customer.c.o: \
+ /home/omar/Desktop/OS2Project/src/customer/customer.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -61,12 +61,10 @@ CMakeFiles/OS2Project.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
- /home/omar/Desktop/OS2Project/src/book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/customer.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../sales/sales.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../sales/../book/book.h \
- /home/omar/Desktop/OS2Project/src/book/../customer/../sales/../customer/customer.h \
+ /usr/include/ctype.h \
  /home/omar/Desktop/OS2Project/src/customer/customer.h \
- /home/omar/Desktop/OS2Project/src/sales/sales.h
+ /home/omar/Desktop/OS2Project/src/customer/../book/book.h \
+ /home/omar/Desktop/OS2Project/src/customer/../book/../customer/customer.h \
+ /home/omar/Desktop/OS2Project/src/customer/../sales/sales.h \
+ /home/omar/Desktop/OS2Project/src/customer/../sales/../book/book.h \
+ /home/omar/Desktop/OS2Project/src/customer/../sales/../customer/customer.h
