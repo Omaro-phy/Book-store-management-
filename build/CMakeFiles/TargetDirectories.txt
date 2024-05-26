@@ -1,0 +1,3 @@
+/home/omar/Desktop/OS2Project/build/CMakeFiles/OS2Project.dir
+/home/omar/Desktop/OS2Project/build/CMakeFiles/edit_cache.dir
+/home/omar/Desktop/OS2Project/build/CMakeFiles/rebuild_cache.dir

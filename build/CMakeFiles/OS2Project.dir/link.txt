@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/OS2Project.dir/src/main.c.o CMakeFiles/OS2Project.dir/src/book.c.o CMakeFiles/OS2Project.dir/src/customer.c.o -o OS2Project  -lpthread 
