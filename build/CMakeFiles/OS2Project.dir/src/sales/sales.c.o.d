@@ -63,9 +63,8 @@ CMakeFiles/OS2Project.dir/src/sales/sales.c.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
  /home/omar/Desktop/OS2Project/src/sales/sales.h \
+ /home/omar/Desktop/OS2Project/src/sales/../constants.h \
  /home/omar/Desktop/OS2Project/src/sales/../book/book.h \
  /home/omar/Desktop/OS2Project/src/sales/../book/../constants.h \
  /home/omar/Desktop/OS2Project/src/sales/../customer/customer.h \
- /home/omar/Desktop/OS2Project/src/sales/../customer/../constants.h \
- /home/omar/Desktop/OS2Project/src/sales/../constants.h \
- /home/omar/Desktop/OS2Project/src/sales/../shared.h
+ /home/omar/Desktop/OS2Project/src/sales/../customer/../constants.h

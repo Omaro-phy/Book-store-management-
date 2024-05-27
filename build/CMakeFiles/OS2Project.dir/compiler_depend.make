@@ -326,10 +326,6 @@ CMakeFiles/OS2Project.dir/src/main.c.o: ../src/main.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/string.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/strings.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -346,6 +342,8 @@ CMakeFiles/OS2Project.dir/src/main.c.o: ../src/main.c \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -362,11 +360,9 @@ CMakeFiles/OS2Project.dir/src/main.c.o: ../src/main.c \
   ../src/customer/customer.h \
   ../src/constants.h \
   ../src/sales/sales.h \
+  ../src/constants.h \
   ../src/book/book.h \
   ../src/customer/customer.h \
-  ../src/constants.h \
-  ../src/sales/sales_menu.h \
-  ../src/sales/sales.h \
   ../src/constants.h
 
 CMakeFiles/OS2Project.dir/src/sales/sales.c.o: ../src/sales/sales.c \

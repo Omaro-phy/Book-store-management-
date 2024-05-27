@@ -56,7 +56,6 @@ CMakeFiles/OS2Project.dir/src/customer/customer.c.o: \
  /home/omar/Desktop/OS2Project/src/customer/../book/book.h \
  /home/omar/Desktop/OS2Project/src/customer/../book/../constants.h \
  /home/omar/Desktop/OS2Project/src/customer/../sales/sales.h \
- /home/omar/Desktop/OS2Project/src/customer/../sales/../book/book.h \
- /home/omar/Desktop/OS2Project/src/customer/../sales/../customer/customer.h \
  /home/omar/Desktop/OS2Project/src/customer/../sales/../constants.h \
- /home/omar/Desktop/OS2Project/src/customer/../shared.h
+ /home/omar/Desktop/OS2Project/src/customer/../sales/../book/book.h \
+ /home/omar/Desktop/OS2Project/src/customer/../sales/../customer/customer.h

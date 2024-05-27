@@ -1,5 +1,5 @@
-CMakeFiles/OS2Project.dir/src/sales/sales_report.c.o: \
- /home/omar/Desktop/OS2Project/src/sales/sales_report.c \
+CMakeFiles/OS2Project.dir/src/book/book_operation.c.o: \
+ /home/omar/Desktop/OS2Project/src/book/book_operation.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -50,9 +50,7 @@ CMakeFiles/OS2Project.dir/src/sales/sales_report.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /home/omar/Desktop/OS2Project/src/sales/sales_report.h \
- /home/omar/Desktop/OS2Project/src/sales/sales.h /usr/include/pthread.h \
+ /usr/include/strings.h /usr/include/ctype.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
@@ -63,8 +61,6 @@ CMakeFiles/OS2Project.dir/src/sales/sales_report.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
- /home/omar/Desktop/OS2Project/src/sales/../constants.h \
- /home/omar/Desktop/OS2Project/src/sales/../book/book.h \
- /home/omar/Desktop/OS2Project/src/sales/../book/../constants.h \
- /home/omar/Desktop/OS2Project/src/sales/../customer/customer.h \
- /home/omar/Desktop/OS2Project/src/sales/../customer/../constants.h
+ /home/omar/Desktop/OS2Project/src/book/book.h \
+ /home/omar/Desktop/OS2Project/src/book/../constants.h \
+ /home/omar/Desktop/OS2Project/src/book/book_operation.h

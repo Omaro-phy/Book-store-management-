@@ -64,5 +64,4 @@ CMakeFiles/OS2Project.dir/src/customer/customer_menu.c.o: \
  /usr/include/ctype.h \
  /home/omar/Desktop/OS2Project/src/customer/customer_menu.h \
  /home/omar/Desktop/OS2Project/src/customer/customer.h \
- /home/omar/Desktop/OS2Project/src/customer/../constants.h \
- /home/omar/Desktop/OS2Project/src/customer/../shared.h
+ /home/omar/Desktop/OS2Project/src/customer/../constants.h
