@@ -50,7 +50,22 @@ CMakeFiles/OS2Project.dir/src/sales/sales.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /home/omar/Desktop/OS2Project/src/sales/sales.h \
+ /usr/include/strings.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
+ /home/omar/Desktop/OS2Project/src/sales/sales.h \
  /home/omar/Desktop/OS2Project/src/sales/../book/book.h \
- /home/omar/Desktop/OS2Project/src/sales/../book/../customer/customer.h \
- /home/omar/Desktop/OS2Project/src/sales/../customer/customer.h
+ /home/omar/Desktop/OS2Project/src/sales/../book/../constants.h \
+ /home/omar/Desktop/OS2Project/src/sales/../customer/customer.h \
+ /home/omar/Desktop/OS2Project/src/sales/../customer/../constants.h \
+ /home/omar/Desktop/OS2Project/src/sales/../constants.h \
+ /home/omar/Desktop/OS2Project/src/sales/../shared.h

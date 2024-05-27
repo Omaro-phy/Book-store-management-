@@ -153,6 +153,30 @@ src/book/book.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book/book.c.s
 .PHONY : src/book/book.c.s
 
+src/book/book_menu.o: src/book/book_menu.c.o
+.PHONY : src/book/book_menu.o
+
+# target to build an object file
+src/book/book_menu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book/book_menu.c.o
+.PHONY : src/book/book_menu.c.o
+
+src/book/book_menu.i: src/book/book_menu.c.i
+.PHONY : src/book/book_menu.i
+
+# target to preprocess a source file
+src/book/book_menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book/book_menu.c.i
+.PHONY : src/book/book_menu.c.i
+
+src/book/book_menu.s: src/book/book_menu.c.s
+.PHONY : src/book/book_menu.s
+
+# target to generate assembly for a file
+src/book/book_menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/book/book_menu.c.s
+.PHONY : src/book/book_menu.c.s
+
 src/customer/customer.o: src/customer/customer.c.o
 .PHONY : src/customer/customer.o
 
@@ -176,6 +200,30 @@ src/customer/customer.s: src/customer/customer.c.s
 src/customer/customer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer/customer.c.s
 .PHONY : src/customer/customer.c.s
+
+src/customer/customer_menu.o: src/customer/customer_menu.c.o
+.PHONY : src/customer/customer_menu.o
+
+# target to build an object file
+src/customer/customer_menu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer/customer_menu.c.o
+.PHONY : src/customer/customer_menu.c.o
+
+src/customer/customer_menu.i: src/customer/customer_menu.c.i
+.PHONY : src/customer/customer_menu.i
+
+# target to preprocess a source file
+src/customer/customer_menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer/customer_menu.c.i
+.PHONY : src/customer/customer_menu.c.i
+
+src/customer/customer_menu.s: src/customer/customer_menu.c.s
+.PHONY : src/customer/customer_menu.s
+
+# target to generate assembly for a file
+src/customer/customer_menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/customer/customer_menu.c.s
+.PHONY : src/customer/customer_menu.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -225,6 +273,54 @@ src/sales/sales.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales.c.s
 .PHONY : src/sales/sales.c.s
 
+src/sales/sales_menu.o: src/sales/sales_menu.c.o
+.PHONY : src/sales/sales_menu.o
+
+# target to build an object file
+src/sales/sales_menu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales_menu.c.o
+.PHONY : src/sales/sales_menu.c.o
+
+src/sales/sales_menu.i: src/sales/sales_menu.c.i
+.PHONY : src/sales/sales_menu.i
+
+# target to preprocess a source file
+src/sales/sales_menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales_menu.c.i
+.PHONY : src/sales/sales_menu.c.i
+
+src/sales/sales_menu.s: src/sales/sales_menu.c.s
+.PHONY : src/sales/sales_menu.s
+
+# target to generate assembly for a file
+src/sales/sales_menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales_menu.c.s
+.PHONY : src/sales/sales_menu.c.s
+
+src/sales/sales_report.o: src/sales/sales_report.c.o
+.PHONY : src/sales/sales_report.o
+
+# target to build an object file
+src/sales/sales_report.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales_report.c.o
+.PHONY : src/sales/sales_report.c.o
+
+src/sales/sales_report.i: src/sales/sales_report.c.i
+.PHONY : src/sales/sales_report.i
+
+# target to preprocess a source file
+src/sales/sales_report.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales_report.c.i
+.PHONY : src/sales/sales_report.c.i
+
+src/sales/sales_report.s: src/sales/sales_report.c.s
+.PHONY : src/sales/sales_report.s
+
+# target to generate assembly for a file
+src/sales/sales_report.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OS2Project.dir/build.make CMakeFiles/OS2Project.dir/src/sales/sales_report.c.s
+.PHONY : src/sales/sales_report.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,15 +333,27 @@ help:
 	@echo "... src/book/book.o"
 	@echo "... src/book/book.i"
 	@echo "... src/book/book.s"
+	@echo "... src/book/book_menu.o"
+	@echo "... src/book/book_menu.i"
+	@echo "... src/book/book_menu.s"
 	@echo "... src/customer/customer.o"
 	@echo "... src/customer/customer.i"
 	@echo "... src/customer/customer.s"
+	@echo "... src/customer/customer_menu.o"
+	@echo "... src/customer/customer_menu.i"
+	@echo "... src/customer/customer_menu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/sales/sales.o"
 	@echo "... src/sales/sales.i"
 	@echo "... src/sales/sales.s"
+	@echo "... src/sales/sales_menu.o"
+	@echo "... src/sales/sales_menu.i"
+	@echo "... src/sales/sales_menu.s"
+	@echo "... src/sales/sales_report.o"
+	@echo "... src/sales/sales_report.i"
+	@echo "... src/sales/sales_report.s"
 .PHONY : help
 
 
